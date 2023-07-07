@@ -1,0 +1,228 @@
+body {
+    background-color: #1C1E20;
+}
+
+.Navbar {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  height: 60px;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+
+.Navleft {
+    margin-left: 10px;
+}
+
+.Navright {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.navhero {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.navexp {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.navabout {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.navcontact {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.navrightimg {
+    width: 30px;
+    height: 30px;
+    border-radius: 25%;
+    border: 5px solid black;
+}
+
+.navlogoimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+.Hero {
+    height: 500px;
+    background-color: white;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    border-radius: 5px;
+}
+
+.heroleft{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.heroL1 {
+    font-size: 28px;
+}
+
+.heroL2 {
+    font-size: 65px;
+}
+
+.heroL3 {
+    font-size: 40px;
+}
+
+.heroL4 {
+    margin-right: 250px;
+    font-size: 25px;
+}
+
+.heroL5 {
+    font-size: 15px;
+    border: 5px solid black;
+    display: inline-flex;
+    width: 140px;
+}
+
+.heroright {
+    display: flex;
+    align-items: center;
+}
+
+.heroright img{
+    width: 450px;
+    height: 450px;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+
+
+.Experience {
+    height: 820px;
+    background-color: white;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding-left: 20px;
+}
+
+.workexpheading {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.expright {
+    padding-top: 42px;
+
+}
+
+.expskills {
+    font-size: 40px;
+    padding-left: 100px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+.SkillsList {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-left: 100px;
+}
+
+.expskills {
+    margin-bottom: 20px;
+}
+/* --------------------------------------------------------------------------------- */
+
+.Contact {
+    height: 400px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.contacttext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    gap: 30px;
+}
+
+.wanttogetintouch {
+    font-size: 50px;
+}
+
+
+.jobopportunity {
+    font-size: 20px;
+}
+
+/* --------------------------------------------------------------------------------- */
+.Footer {
+    height: 250px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials {
+    display: inline-flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.socials img {
+    border: 5px solid white;
+    border-radius: 25%;
+}
+
+.copyright {
+    color: white;
+    font-size: 20px;
+}
+
+
